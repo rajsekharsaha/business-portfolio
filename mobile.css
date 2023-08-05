@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+:root {
+    --white: #ffffff;
+    --darkperple: #331D2C;
+    --midlightperple: #3F2E3E;
+    --yellow: #fff724;
+    --lightperple: #A78295;
+    --light1perple: #a78295cc;
+    --midveryperple: #a7829523;
+    --verylightperple: #3f2e3e0a;
+    --headingblack: rgba(0, 0, 0, 0.644);
+    --captionblack: rgba(0, 0, 0, 0.459);
+    --black: #000000c2;
+
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* navbar-start */
+    .container{
+        width: 100vw;
+    }
+    .navigationbar {
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        background: var(--midlightperple);
+        justify-content: space-between;
+    }
+    .active{
+        border-radius: 10px;
+        right: 0;
+        padding: 25px;
+        background-color: var(--white);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .active-menu{
+        display: none;
+    }
+    .closeBtn{
+        display: block;
+    }
+    .navbar ul li{
+        color: var(--black);
+    }
+    .navbar ol{
+        padding-right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar ol li{
+        list-style-type: none;
+    }
+    .navbar ol li i{
+        font-size: 30px;
+        color: var(--white);
+    }
+    /* navbar-end */
+    /* hero-section-start */
+    .container0{
+        width: 100vw;
+    }
+    .hero-section p {
+        font-family: 'Borel', cursive;
+        font-size: 35px;
+    }
+
+    .auto-type-text h1,
+    .auto-type-text span {
+        font-size: 20px;
+    }
+
+    .meta-button button {
+        padding: 15px 20px 15px 20px;
+        font-size: 20px;
+    }
+
+    /* hero-section-end */
+    /* services-section-start */
+    .container1{
+        width: 100vw;
+    }
+    .services h1 {
+        font-size: 25px;
+    }
+
+    .services p {
+        font-size: 12px;
+    }
+
+    .service-list ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-list ul li {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .image-icon {
+        width: 80px;
+        border-radius: 80px;
+    }
+
+    /* services-section-end */
+    /* portfolio-start */
+    .container2{
+        width: 100vw;
+    }
+    .portfolio h1 {
+        font-size: 25px;
+    }
+
+    .portfolio p {
+        font-size: 12px;
+    }
+
+    .portfolio-item-list ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-port{
+        padding-bottom: 30px;
+    }
+
+    .port-photo {
+        width: 10rem;
+    }
+
+    /* portfolio-end */
+    /* aboutus-start */
+    .container3{
+        width: 100vw;
+    }
+    .about-us h1 {
+        font-size: 25px;
+    }
+
+    .about-us p {
+        font-size: 12px;
+    }
+
+    .timeline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timeline ul {
+        width: 80%;
+        list-style-type: none;
+    }
+
+    .timeline img {
+        background-color: var(--midveryperple);
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+
+    .image-circle1,
+    .image-circle2,
+    .image-circle3,
+    .image-circle4 {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .image-circle1 p,
+    .image-circle1 h1 {
+        text-align: start;
+        margin-left: 10px;
+    }
+
+    .image-circle2 p,
+    .image-circle2 h1 {
+        text-align: start;
+        margin-left: 10px;
+    }
+
+    .image-circle3 p,
+    .image-circle3 h1 {
+        text-align: start;
+        margin-left: 10px;
+    }
+
+    .image-circle4 p,
+    .image-circle4 h1 {
+        text-align: start;
+        margin-left: 10px;
+    }
+
+    .hidden-text {
+        visibility: visible;
+    }
+
+    .mobile-text {
+        display: none;
+    }
+    .team-text p{
+        width: 100%;
+        padding: 30px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--captionblack);
+    }
+    /* aboutus-end */
+    /* our-team-start */
+    .container4{
+        width: 100vw;
+    }
+    .team-heading h1 {
+        font-size: 25px;
+    }
+
+    .team-heading p {
+        font-size: 12px;
+    }
+
+    .team-list ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-members{
+        background-color: var(--midveryperple);
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+    }
+    .team-list h2{
+        font-size: 20px;
+    }
+
+    /* our-team-end */
+
+    /* brands-start */
+    .container5{
+        width: 100vw;
+    }
+    .container5 img{
+        padding: 15px;
+    }
+    .container5 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-microsoft{
+        width: 150px;
+    }
+    .logo-google{
+        width: 150px;
+    }
+    .logo-facebook{
+        width: 150px;
+    }
+    .logo-ibm{
+        width: 100px;
+    }
+    /* brands-end */
+    /* contactus-start */
+    .contact-us h1{
+        font-size: 25px;
+    }
+    .contact-us p{
+        font-size: 12px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-box{
+        position: relative;
+        /* margin: 20px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .left-box input{
+        width: 65vw;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .right-box textarea{
+        width: 65vw;
+    }
+    .messagebtn{
+        display: flex;
+        justify-content: center;
+    }
+    .messagebtn button {
+        padding: 15px 20px 15px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: var(--light1perple);
+        color: var(--midlightperple);
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        transition: 0.5s;
+    }
+    
+    .messagebtn button:hover {
+        background-color: var(--midlightperple);
+        color: var(--lightperple);;
+    }
+    /* contactus-end */
+    /* footer-start */
+    .container7{
+        width: 100vw;
+    }
+    .container7 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-pages a{
+        text-decoration: none;
+        margin: 10px;
+        color: var(--black);
+    }
+    /* footer-end */
+}
