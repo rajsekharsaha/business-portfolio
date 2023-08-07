@@ -192,6 +192,7 @@ span {
 /* portfolio-section-start */
 .container2{
     margin-top: 6% ;
+    padding-bottom: 6%;
     background-color: var(--verylightperple);
 }
 .portfolio{
