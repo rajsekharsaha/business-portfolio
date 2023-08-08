@@ -13,6 +13,9 @@
     --black:#000000c2;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
